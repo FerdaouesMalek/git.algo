@@ -1,0 +1,20 @@
+ALGORITHM algorithm_name
+VAR
+    //set_declarations
+    ch:STRING
+    b,d:INTEGER:=0
+    c:INTEGER:=1
+    i:INTEGER:=0
+BEGIN
+    //set_instructions
+    FOR i FROM 0 TO STRING.length-1 STEP 1 DO
+    write (b:=b+1)
+    IF (ch[i]==" ") THEN
+    END_IF
+    IF ((ch[i]=="a") or (ch[i]=="o") or (ch[i]=="u") or (ch[i]=="i")  or (ch[i]=="e") ) THEN
+    END_IF
+    END_FOR
+    write ("the lenghth of the phrase is:",b,"characters.")
+    write("there are",c,"spaces.")
+    write("there are,d,vowels.")
+END
